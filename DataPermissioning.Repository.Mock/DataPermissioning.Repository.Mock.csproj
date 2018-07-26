@@ -4,4 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DataPermissioning.Repository.Db\DataPermissioning.Repository.Db.csproj" />
+    <ProjectReference Include="..\DataPermissioning.Repository\DataPermissioning.Repository.csproj" />
+    <ProjectReference Include="..\DataPermissioning.Utility.Mock\DataPermissioning.Utility.Mock.csproj" />
+  </ItemGroup>
+
 </Project>

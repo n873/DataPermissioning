@@ -24,6 +24,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="src\app\models\Index.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore" Version="2.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.0" />
 
@@ -50,6 +54,15 @@
     <None Include="wwwroot\styles.js.map" />
     <None Include="wwwroot\vendor.js" />
     <None Include="wwwroot\vendor.js.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="components\" />
+    <Folder Include="src\app\services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="src\app\models\Index.ts" />
   </ItemGroup>
 
 </Project>
